@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe of the day</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.40/dist/themes/base.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.40/dist/themes/dark.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <br>
+    <sl-switch>Dark Mode</sl-switch> 
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.40/dist/shoelace.js"></script>
+
+    
+<sl-card class="card-overview">
+    <img 
+      slot="image" 
+      src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+      alt="A scrumptious plate of spicy sesame skewers, yeah yeah yeah yeah yeah yeah."
+    >
+  
+    <strong>Sesame Chicken Skewers</strong><br>
+    Boy, these little babies are tasty as hell. Great for parties too!<br>
+    <small>Total Cook Time: 1 Hour</small>
+  
+    <div slot="footer">
+      <sl-button type="default" pill>Add to Meals</sl-button>
+      <sl-rating></sl-rating>
+    </div>
+  </sl-card>
+
+</body>
+</html>

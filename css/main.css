@@ -1,0 +1,65 @@
+:root {
+  /* Changes the primary color palette to yellow */
+  --sl-color-primary-50: #fdf0ed;
+  --sl-color-primary-100: #f5c4b7;
+  --sl-color-primary-200: #f0a693;
+  --sl-color-primary-300: #eb886f;
+  --sl-color-primary-400: #e76a4b;
+  --sl-color-primary-500: #E24D28;
+  --sl-color-primary-600: #c53d1b;
+  --sl-color-primary-700: #a23216;
+  --sl-color-primary-800: #7e2711;
+  --sl-color-primary-900: #5a1c0c;
+  --sl-font-sans: Roboto;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;        
+}
+
+sl-switch {
+    margin: 0 50px 0 25px;
+}
+
+sl-switch::part(base) {
+    background: rgb(204, 229, 255);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+sl-switch::part(thumb) {
+    background: #ffffff;    
+}
+
+sl-switch::part(control) {
+    background: #e76a4b;    
+}
+
+sl-card {
+    --border-radius: 1em;
+    --border-color:  rgb(204, 229, 255);
+    --border-width: .25em; 
+    --sl-font-sans: Roboto;  
+}
+
+sl-card::part(image) {    
+    padding: 1em;
+}
+
+sl-card::part(body) {    
+    background-color:rgb(204, 229, 255);
+}
+
+sl-card::part(footer) {    
+    background-color: rgb(204, 229, 255);
+}
+
+sl-rating{
+    --symbol-color: #80bbff;
+}
+
+.card-overview {
+    font-family: Roboto; 
+}
