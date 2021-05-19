@@ -38,8 +38,8 @@ sl-switch::part(control) {
 }
 
 sl-card {
-    --border-radius: 1em;
-    --border-color:  rgb(204, 229, 255);
+    --border-radius: 1.5em;
+    --border-color:  aliceblue;
     --border-width: .25em; 
     --sl-font-sans: Roboto;  
 }
@@ -50,10 +50,16 @@ sl-card::part(image) {
 
 sl-card::part(body) {    
     background-color:rgb(204, 229, 255);
+    margin-left: .8em;
+    margin-right: .8em;
 }
 
 sl-card::part(footer) {    
-    background-color: rgb(204, 229, 255);
+    background-color: rgb(194, 221, 250);
+    border-radius: 0 0 0.85em 0.85em;
+    margin-left: .8em;
+    margin-right: .8em;
+    margin-bottom: .8em;
 }
 
 sl-rating{
