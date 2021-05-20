@@ -55,7 +55,7 @@ sl-card::part(body) {
 }
 
 sl-card::part(footer) {    
-    background-color: rgb(194, 221, 250);
+    background-color: rgb(185, 215, 248);
     border-radius: 0 0 0.85em 0.85em;
     margin-left: .8em;
     margin-right: .8em;
